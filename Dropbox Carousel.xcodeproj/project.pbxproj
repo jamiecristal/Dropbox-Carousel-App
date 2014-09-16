@@ -12,6 +12,13 @@
 		B2FB88BC19C7AE5700644B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FB88BA19C7AE5700644B32 /* Main.storyboard */; };
 		B2FB88BE19C7AE5700644B32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FB88BD19C7AE5700644B32 /* Images.xcassets */; };
 		B2FB88CA19C7AE5700644B32 /* Dropbox_CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB88C919C7AE5700644B32 /* Dropbox_CarouselTests.swift */; };
+		B2FB88D419C7AFCF00644B32 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB88D319C7AFCF00644B32 /* InitialViewController.swift */; };
+		B2FB88D619C7BF7600644B32 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB88D519C7BF7600644B32 /* LoginViewController.swift */; };
+		B2FB88D819C7C76500644B32 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB88D719C7C76500644B32 /* WelcomeViewController.swift */; };
+		B2FB88DA19C7D42400644B32 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB88D919C7D42400644B32 /* settingsViewController.swift */; };
+		B2FB88DC19C7D53F00644B32 /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB88DB19C7D53F00644B32 /* feedViewController.swift */; };
+		B2FB890B19C7E07E00644B32 /* ConvoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB890A19C7E07E00644B32 /* ConvoViewController.swift */; };
+		B2FB890D19C7E33100644B32 /* XViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB890C19C7E33100644B32 /* XViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,13 @@
 		B2FB88C319C7AE5700644B32 /* Dropbox CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dropbox CarouselTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FB88C819C7AE5700644B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2FB88C919C7AE5700644B32 /* Dropbox_CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dropbox_CarouselTests.swift; sourceTree = "<group>"; };
+		B2FB88D319C7AFCF00644B32 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		B2FB88D519C7BF7600644B32 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B2FB88D719C7C76500644B32 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B2FB88D919C7D42400644B32 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		B2FB88DB19C7D53F00644B32 /* feedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
+		B2FB890A19C7E07E00644B32 /* ConvoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvoViewController.swift; sourceTree = "<group>"; };
+		B2FB890C19C7E33100644B32 /* XViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,13 @@
 				B2FB88B619C7AE5700644B32 /* AppDelegate.swift */,
 				B2FB88B819C7AE5700644B32 /* ViewController.swift */,
 				B2FB88BA19C7AE5700644B32 /* Main.storyboard */,
+				B2FB890C19C7E33100644B32 /* XViewController.swift */,
+				B2FB890A19C7E07E00644B32 /* ConvoViewController.swift */,
+				B2FB88DB19C7D53F00644B32 /* feedViewController.swift */,
+				B2FB88D919C7D42400644B32 /* settingsViewController.swift */,
+				B2FB88D719C7C76500644B32 /* WelcomeViewController.swift */,
+				B2FB88D519C7BF7600644B32 /* LoginViewController.swift */,
+				B2FB88D319C7AFCF00644B32 /* InitialViewController.swift */,
 				B2FB88BD19C7AE5700644B32 /* Images.xcassets */,
 				B2FB88B419C7AE5700644B32 /* Supporting Files */,
 			);
@@ -208,8 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FB890B19C7E07E00644B32 /* ConvoViewController.swift in Sources */,
+				B2FB890D19C7E33100644B32 /* XViewController.swift in Sources */,
+				B2FB88D619C7BF7600644B32 /* LoginViewController.swift in Sources */,
+				B2FB88DC19C7D53F00644B32 /* feedViewController.swift in Sources */,
+				B2FB88D819C7C76500644B32 /* WelcomeViewController.swift in Sources */,
+				B2FB88D419C7AFCF00644B32 /* InitialViewController.swift in Sources */,
 				B2FB88B919C7AE5700644B32 /* ViewController.swift in Sources */,
 				B2FB88B719C7AE5700644B32 /* AppDelegate.swift in Sources */,
+				B2FB88DA19C7D42400644B32 /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +423,7 @@
 				B2FB88CF19C7AE5700644B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2FB88D019C7AE5700644B32 /* Build configuration list for PBXNativeTarget "Dropbox CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +432,7 @@
 				B2FB88D219C7AE5700644B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
